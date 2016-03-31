@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9812F75C1CA536C900482CA9 /* Book.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9812F75A1CA536C900482CA9 /* Book.storyboard */; };
+		9812F75E1CA5376100482CA9 /* Person.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9812F75D1CA5376100482CA9 /* Person.storyboard */; };
+		983A4BCA1CAA207600CD905D /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A4BC91CAA207600CD905D /* CalenderViewController.swift */; };
+		983A4BCC1CAA7A1D00CD905D /* FindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A4BCB1CAA7A1D00CD905D /* FindTableViewCell.swift */; };
+		98A5E7491CA9049D00C00692 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E7481CA9049D00C00692 /* PersonViewController.swift */; };
+		98C17BFF1CA3CCC4003FB73B /* favourite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C17BFD1CA3CCC4003FB73B /* favourite.storyboard */; };
+		98C17C011CA4D6BA003FB73B /* Find.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C17C001CA4D6BA003FB73B /* Find.storyboard */; };
+		98C17C031CA4ECAE003FB73B /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C17C021CA4ECAE003FB73B /* FindViewController.swift */; };
+		98CD77EE1CA289ED009E052C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD77ED1CA289ED009E052C /* FirstViewController.swift */; };
+		98CD77F01CA294AE009E052C /* ListenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD77EF1CA294AE009E052C /* ListenTableViewCell.swift */; };
+		98CD77F21CA294C9009E052C /* SeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD77F11CA294C9009E052C /* SeeTableViewCell.swift */; };
+		98CD77F41CA294F9009E052C /* BookTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD77F31CA294F9009E052C /* BookTitleTableViewCell.swift */; };
+		98CD77F61CA29508009E052C /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD77F51CA29508009E052C /* BookTableViewCell.swift */; };
 		98E2949F1C9FD2E8006FC88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E2949E1C9FD2E8006FC88E /* AppDelegate.swift */; };
 		98E294A11C9FD2E8006FC88E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E294A01C9FD2E8006FC88E /* ViewController.swift */; };
 		98E294A41C9FD2E8006FC88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E294A21C9FD2E8006FC88E /* Main.storyboard */; };
 		98E294A61C9FD2E8006FC88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E294A51C9FD2E8006FC88E /* Assets.xcassets */; };
 		98E294A91C9FD2E8006FC88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E294A71C9FD2E8006FC88E /* LaunchScreen.storyboard */; };
+		98E294B21C9FE0A2006FC88E /* FirstView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E294B01C9FE0A2006FC88E /* FirstView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9812F75B1CA536C900482CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Book.storyboard; sourceTree = "<group>"; };
+		9812F75D1CA5376100482CA9 /* Person.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Person.storyboard; sourceTree = "<group>"; };
+		983A4BC91CAA207600CD905D /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		983A4BCB1CAA7A1D00CD905D /* FindTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTableViewCell.swift; sourceTree = "<group>"; };
+		98A5E7481CA9049D00C00692 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		98C17BFE1CA3CCC4003FB73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/favourite.storyboard; sourceTree = "<group>"; };
+		98C17C001CA4D6BA003FB73B /* Find.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Find.storyboard; sourceTree = "<group>"; };
+		98C17C021CA4ECAE003FB73B /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		98CD77ED1CA289ED009E052C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		98CD77EF1CA294AE009E052C /* ListenTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenTableViewCell.swift; sourceTree = "<group>"; };
+		98CD77F11CA294C9009E052C /* SeeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeTableViewCell.swift; sourceTree = "<group>"; };
+		98CD77F31CA294F9009E052C /* BookTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTitleTableViewCell.swift; sourceTree = "<group>"; };
+		98CD77F51CA29508009E052C /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 		98E2949B1C9FD2E8006FC88E /* Reading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E2949E1C9FD2E8006FC88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98E294A01C9FD2E8006FC88E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +49,7 @@
 		98E294A51C9FD2E8006FC88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98E294A81C9FD2E8006FC88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98E294AA1C9FD2E8006FC88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E294B11C9FE0A2006FC88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FirstView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		983A4BC41CAA16FC00CD905D /* firstView */ = {
+			isa = PBXGroup;
+			children = (
+				98CD77ED1CA289ED009E052C /* FirstViewController.swift */,
+				983A4BC91CAA207600CD905D /* CalenderViewController.swift */,
+				98CD77EF1CA294AE009E052C /* ListenTableViewCell.swift */,
+				98CD77F11CA294C9009E052C /* SeeTableViewCell.swift */,
+				98CD77F51CA29508009E052C /* BookTableViewCell.swift */,
+				98CD77F31CA294F9009E052C /* BookTitleTableViewCell.swift */,
+			);
+			name = firstView;
+			sourceTree = "<group>";
+		};
+		983A4BC51CAA176700CD905D /* favourite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = favourite;
+			sourceTree = "<group>";
+		};
+		983A4BC61CAA178500CD905D /* find */ = {
+			isa = PBXGroup;
+			children = (
+				98C17C021CA4ECAE003FB73B /* FindViewController.swift */,
+				983A4BCB1CAA7A1D00CD905D /* FindTableViewCell.swift */,
+			);
+			name = find;
+			sourceTree = "<group>";
+		};
+		983A4BC71CAA179700CD905D /* person */ = {
+			isa = PBXGroup;
+			children = (
+				98A5E7481CA9049D00C00692 /* PersonViewController.swift */,
+			);
+			name = person;
+			sourceTree = "<group>";
+		};
+		983A4BC81CAA17EE00CD905D /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				98E294A21C9FD2E8006FC88E /* Main.storyboard */,
+				9812F75D1CA5376100482CA9 /* Person.storyboard */,
+				9812F75A1CA536C900482CA9 /* Book.storyboard */,
+				98C17C001CA4D6BA003FB73B /* Find.storyboard */,
+				98E294B01C9FE0A2006FC88E /* FirstView.storyboard */,
+				98C17BFD1CA3CCC4003FB73B /* favourite.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
 		98E294921C9FD2E8006FC88E = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +134,12 @@
 			children = (
 				98E2949E1C9FD2E8006FC88E /* AppDelegate.swift */,
 				98E294A01C9FD2E8006FC88E /* ViewController.swift */,
-				98E294A21C9FD2E8006FC88E /* Main.storyboard */,
+				983A4BC71CAA179700CD905D /* person */,
+				983A4BC51CAA176700CD905D /* favourite */,
+				983A4BC61CAA178500CD905D /* find */,
+				983A4BC41CAA16FC00CD905D /* firstView */,
 				98E294A51C9FD2E8006FC88E /* Assets.xcassets */,
+				983A4BC81CAA17EE00CD905D /* storyboard */,
 				98E294A71C9FD2E8006FC88E /* LaunchScreen.storyboard */,
 				98E294AA1C9FD2E8006FC88E /* Info.plist */,
 			);
@@ -124,7 +206,12 @@
 			files = (
 				98E294A91C9FD2E8006FC88E /* LaunchScreen.storyboard in Resources */,
 				98E294A61C9FD2E8006FC88E /* Assets.xcassets in Resources */,
+				98E294B21C9FE0A2006FC88E /* FirstView.storyboard in Resources */,
+				9812F75C1CA536C900482CA9 /* Book.storyboard in Resources */,
+				98C17BFF1CA3CCC4003FB73B /* favourite.storyboard in Resources */,
 				98E294A41C9FD2E8006FC88E /* Main.storyboard in Resources */,
+				98C17C011CA4D6BA003FB73B /* Find.storyboard in Resources */,
+				9812F75E1CA5376100482CA9 /* Person.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,14 +222,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983A4BCA1CAA207600CD905D /* CalenderViewController.swift in Sources */,
+				98CD77F21CA294C9009E052C /* SeeTableViewCell.swift in Sources */,
+				98CD77F41CA294F9009E052C /* BookTitleTableViewCell.swift in Sources */,
+				98CD77EE1CA289ED009E052C /* FirstViewController.swift in Sources */,
+				98C17C031CA4ECAE003FB73B /* FindViewController.swift in Sources */,
+				98CD77F61CA29508009E052C /* BookTableViewCell.swift in Sources */,
 				98E294A11C9FD2E8006FC88E /* ViewController.swift in Sources */,
+				98CD77F01CA294AE009E052C /* ListenTableViewCell.swift in Sources */,
+				98A5E7491CA9049D00C00692 /* PersonViewController.swift in Sources */,
 				98E2949F1C9FD2E8006FC88E /* AppDelegate.swift in Sources */,
+				983A4BCC1CAA7A1D00CD905D /* FindTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		9812F75A1CA536C900482CA9 /* Book.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9812F75B1CA536C900482CA9 /* Base */,
+			);
+			name = Book.storyboard;
+			sourceTree = "<group>";
+		};
+		98C17BFD1CA3CCC4003FB73B /* favourite.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C17BFE1CA3CCC4003FB73B /* Base */,
+			);
+			name = favourite.storyboard;
+			sourceTree = "<group>";
+		};
 		98E294A21C9FD2E8006FC88E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -157,6 +269,14 @@
 				98E294A81C9FD2E8006FC88E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		98E294B01C9FE0A2006FC88E /* FirstView.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98E294B11C9FE0A2006FC88E /* Base */,
+			);
+			name = FirstView.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Reading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weihui.Reading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Reading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weihui.Reading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +408,7 @@
 				98E294AF1C9FD2E8006FC88E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
