@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVOSCloud
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -28,8 +29,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().selectedImageTintColor = UIColor(red: 173.0/255.0, green:
             161.0/255.0, blue: 66.0/255.0, alpha: 1.0)
         UITabBar.appearance().barTintColor = UIColor(patternImage: UIImage(named: "tabbarBG")!)
-//        UITabBar.appearance().backgroundColor = UIColor(patternImage: UIImage(named: "tabbarBackground")!)
-//        UITabBar.appearance().backgroundColor = UIColor.blueColor()
+        
+        AVOSCloud.setApplicationId("CuaKsskB8r7K3y4MJtfrdab7-gzGzoHsz", clientKey: "OBTV5GWpwl6nUp5zWbUurK9l")
+
     
         
         

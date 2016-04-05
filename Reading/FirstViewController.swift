@@ -7,22 +7,27 @@
 //
 
 import UIKit
+import AVOSCloud
 
 class FirstViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var listenArray = ["张小龙：怎样做一个好产品", "是什么催生了资本主义？记账", "如何用游戏的方式管理公司"]
+    var listenArray = ["张小龙：怎样做一个好产品", "是什么催生了资本主义？记账", "如何用游戏的方式管理公司", "是什么催生了资本主义？记账", "如何用游戏的方式管理公司", "是什么催生了资本主义？记账", "如何用游戏的方式管理公司"]
     var bookArray = ["《杀戮与文化》解读版","说杂志：深入浅出，解密引力波"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-//        self.tabBarController?.tabBar.backgroundImage = UIImage(named: "tabbarBG")
-//        self.tabBarController?.tabBar.contentMode = .ScaleAspectFill
-    
-        // Do any additional setup after loading the view.
+        
+        var post = AVObject(className: "TestObject")
+        post.setObject("Hello World!", forKey: "Words")
+        post.saveInBackgroundWithBlock { (success, error) in
+            if success {
+                print("保存成功")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

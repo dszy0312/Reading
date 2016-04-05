@@ -11,6 +11,20 @@
 		9812F75E1CA5376100482CA9 /* Person.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9812F75D1CA5376100482CA9 /* Person.storyboard */; };
 		983A4BCA1CAA207600CD905D /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A4BC91CAA207600CD905D /* CalenderViewController.swift */; };
 		983A4BCC1CAA7A1D00CD905D /* FindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A4BCB1CAA7A1D00CD905D /* FindTableViewCell.swift */; };
+		9848D3641CB35F6B002BBDFC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9848D3611CB35F6B002BBDFC /* AVOSCloud.framework */; };
+		9848D3651CB35F6B002BBDFC /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9848D3621CB35F6B002BBDFC /* AVOSCloudCrashReporting.framework */; };
+		9848D3661CB35F6B002BBDFC /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9848D3631CB35F6B002BBDFC /* AVOSCloudIM.framework */; };
+		9848D36C1CB39BE2002BBDFC /* bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9848D36B1CB39BE2002BBDFC /* bridge.m */; };
+		9848D36D1CB39E2D002BBDFC /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9848D3611CB35F6B002BBDFC /* AVOSCloud.framework */; };
+		9848D36E1CB39E2D002BBDFC /* AVOSCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9848D3611CB35F6B002BBDFC /* AVOSCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9848D3701CB39E31002BBDFC /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9848D3621CB35F6B002BBDFC /* AVOSCloudCrashReporting.framework */; };
+		9848D3711CB39E31002BBDFC /* AVOSCloudCrashReporting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9848D3621CB35F6B002BBDFC /* AVOSCloudCrashReporting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9848D3721CB39E34002BBDFC /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9848D3631CB35F6B002BBDFC /* AVOSCloudIM.framework */; };
+		9848D3731CB39E34002BBDFC /* AVOSCloudIM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9848D3631CB35F6B002BBDFC /* AVOSCloudIM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		987E06351CAE5DF900D0EAEA /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E06341CAE5DF900D0EAEA /* FavouriteViewController.swift */; };
+		987E06371CAE5E1E00D0EAEA /* BackgroundPhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E06361CAE5E1E00D0EAEA /* BackgroundPhotoCollectionViewController.swift */; };
+		987E06391CAE61DC00D0EAEA /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E06381CAE61DC00D0EAEA /* HeaderCollectionReusableView.swift */; };
+		987E063B1CAE61F300D0EAEA /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987E063A1CAE61F300D0EAEA /* PhotoCollectionViewCell.swift */; };
 		98A5E7491CA9049D00C00692 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A5E7481CA9049D00C00692 /* PersonViewController.swift */; };
 		98C17BFF1CA3CCC4003FB73B /* favourite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C17BFD1CA3CCC4003FB73B /* favourite.storyboard */; };
 		98C17C011CA4D6BA003FB73B /* Find.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C17C001CA4D6BA003FB73B /* Find.storyboard */; };
@@ -28,11 +42,36 @@
 		98E294B21C9FE0A2006FC88E /* FirstView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E294B01C9FE0A2006FC88E /* FirstView.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9848D36F1CB39E2D002BBDFC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9848D3711CB39E31002BBDFC /* AVOSCloudCrashReporting.framework in Embed Frameworks */,
+				9848D36E1CB39E2D002BBDFC /* AVOSCloud.framework in Embed Frameworks */,
+				9848D3731CB39E34002BBDFC /* AVOSCloudIM.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		9812F75B1CA536C900482CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Book.storyboard; sourceTree = "<group>"; };
 		9812F75D1CA5376100482CA9 /* Person.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Person.storyboard; sourceTree = "<group>"; };
 		983A4BC91CAA207600CD905D /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 		983A4BCB1CAA7A1D00CD905D /* FindTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTableViewCell.swift; sourceTree = "<group>"; };
+		9848D3611CB35F6B002BBDFC /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		9848D3621CB35F6B002BBDFC /* AVOSCloudCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudCrashReporting.framework; sourceTree = "<group>"; };
+		9848D3631CB35F6B002BBDFC /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudIM.framework; sourceTree = "<group>"; };
+		9848D36A1CB39BE2002BBDFC /* Reading-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reading-Bridging-Header.h"; sourceTree = "<group>"; };
+		9848D36B1CB39BE2002BBDFC /* bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridge.m; sourceTree = "<group>"; };
+		987E06341CAE5DF900D0EAEA /* FavouriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		987E06361CAE5E1E00D0EAEA /* BackgroundPhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundPhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		987E06381CAE61DC00D0EAEA /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		987E063A1CAE61F300D0EAEA /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		98A5E7481CA9049D00C00692 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		98C17BFE1CA3CCC4003FB73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/favourite.storyboard; sourceTree = "<group>"; };
 		98C17C001CA4D6BA003FB73B /* Find.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Find.storyboard; sourceTree = "<group>"; };
@@ -57,6 +96,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9848D3701CB39E31002BBDFC /* AVOSCloudCrashReporting.framework in Frameworks */,
+				9848D3651CB35F6B002BBDFC /* AVOSCloudCrashReporting.framework in Frameworks */,
+				9848D3641CB35F6B002BBDFC /* AVOSCloud.framework in Frameworks */,
+				9848D3661CB35F6B002BBDFC /* AVOSCloudIM.framework in Frameworks */,
+				9848D36D1CB39E2D002BBDFC /* AVOSCloud.framework in Frameworks */,
+				9848D3721CB39E34002BBDFC /* AVOSCloudIM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +124,10 @@
 		983A4BC51CAA176700CD905D /* favourite */ = {
 			isa = PBXGroup;
 			children = (
+				987E06341CAE5DF900D0EAEA /* FavouriteViewController.swift */,
+				987E06361CAE5E1E00D0EAEA /* BackgroundPhotoCollectionViewController.swift */,
+				987E06381CAE61DC00D0EAEA /* HeaderCollectionReusableView.swift */,
+				987E063A1CAE61F300D0EAEA /* PhotoCollectionViewCell.swift */,
 			);
 			name = favourite;
 			sourceTree = "<group>";
@@ -113,9 +162,28 @@
 			name = storyboard;
 			sourceTree = "<group>";
 		};
+		9848D35F1CB35F3E002BBDFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9848D3601CB35F6B002BBDFC /* AVOSCloud */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9848D3601CB35F6B002BBDFC /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				9848D3611CB35F6B002BBDFC /* AVOSCloud.framework */,
+				9848D3621CB35F6B002BBDFC /* AVOSCloudCrashReporting.framework */,
+				9848D3631CB35F6B002BBDFC /* AVOSCloudIM.framework */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
 		98E294921C9FD2E8006FC88E = {
 			isa = PBXGroup;
 			children = (
+				9848D35F1CB35F3E002BBDFC /* Frameworks */,
 				98E2949D1C9FD2E8006FC88E /* Reading */,
 				98E2949C1C9FD2E8006FC88E /* Products */,
 			);
@@ -141,7 +209,9 @@
 				98E294A51C9FD2E8006FC88E /* Assets.xcassets */,
 				983A4BC81CAA17EE00CD905D /* storyboard */,
 				98E294A71C9FD2E8006FC88E /* LaunchScreen.storyboard */,
+				9848D36B1CB39BE2002BBDFC /* bridge.m */,
 				98E294AA1C9FD2E8006FC88E /* Info.plist */,
+				9848D36A1CB39BE2002BBDFC /* Reading-Bridging-Header.h */,
 			);
 			path = Reading;
 			sourceTree = "<group>";
@@ -156,6 +226,7 @@
 				98E294971C9FD2E8006FC88E /* Sources */,
 				98E294981C9FD2E8006FC88E /* Frameworks */,
 				98E294991C9FD2E8006FC88E /* Resources */,
+				9848D36F1CB39E2D002BBDFC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,7 +243,7 @@
 		98E294931C9FD2E8006FC88E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "魏辉";
 				TargetAttributes = {
@@ -222,16 +293,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9848D36C1CB39BE2002BBDFC /* bridge.m in Sources */,
+				987E06391CAE61DC00D0EAEA /* HeaderCollectionReusableView.swift in Sources */,
 				983A4BCA1CAA207600CD905D /* CalenderViewController.swift in Sources */,
 				98CD77F21CA294C9009E052C /* SeeTableViewCell.swift in Sources */,
 				98CD77F41CA294F9009E052C /* BookTitleTableViewCell.swift in Sources */,
 				98CD77EE1CA289ED009E052C /* FirstViewController.swift in Sources */,
+				987E06351CAE5DF900D0EAEA /* FavouriteViewController.swift in Sources */,
 				98C17C031CA4ECAE003FB73B /* FindViewController.swift in Sources */,
 				98CD77F61CA29508009E052C /* BookTableViewCell.swift in Sources */,
 				98E294A11C9FD2E8006FC88E /* ViewController.swift in Sources */,
 				98CD77F01CA294AE009E052C /* ListenTableViewCell.swift in Sources */,
 				98A5E7491CA9049D00C00692 /* PersonViewController.swift in Sources */,
+				987E063B1CAE61F300D0EAEA /* PhotoCollectionViewCell.swift in Sources */,
 				98E2949F1C9FD2E8006FC88E /* AppDelegate.swift in Sources */,
+				987E06371CAE5E1E00D0EAEA /* BackgroundPhotoCollectionViewController.swift in Sources */,
 				983A4BCC1CAA7A1D00CD905D /* FindTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,11 +445,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVOSCloud",
+				);
 				INFOPLIST_FILE = Reading/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weihui.Reading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Reading/Reading-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -381,11 +464,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVOSCloud",
+				);
 				INFOPLIST_FILE = Reading/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weihui.Reading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Reading/Reading-Bridging-Header.h";
 			};
 			name = Release;
 		};
